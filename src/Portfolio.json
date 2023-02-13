@@ -6,5 +6,45 @@
         "github": "https://github.com/begirlz/TechBlog",
         "deploy": "https://powerful-hollows-53265.herokuapp.com/",
         "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
+        "github": "https://github.com/begirlz/TechBlog",
+        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
+        "github": "https://github.com/begirlz/TechBlog",
+        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
+        "github": "https://github.com/begirlz/TechBlog",
+        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
+        "github": "https://github.com/begirlz/TechBlog",
+        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
+        "github": "https://github.com/begirlz/TechBlog",
+        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
     }
 ]

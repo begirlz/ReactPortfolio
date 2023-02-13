@@ -6,11 +6,12 @@ import '../css/bootstrap.css';
 function ProjectCards(props) {
 
     return (
-        <div className="card col-sm-3 mb-3">
-            <h3 className="card-header">{props.name}</h3>
+        <div className="card mx-2 col-lg-3">
+            <h3 className="card-header"><strong>{props.name}</strong>
+            </h3>
             <div className="card-body">
                 <div className='d-flex justify-content-center'>
-                    <img className='card-img' style={{ width: '90%', height: '250px' }}
+                    <img className='card-img' style={{ width: '100%', height: '250px' }}
                         alt={props.name} src={props.image} />
 
                 </div>

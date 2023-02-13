@@ -4,13 +4,13 @@ import ProjectCards from '../components/Project'
 //import '../css/bootstrap.css';
 
 function Wrapper(props) {
-    return <div className="wrapper">{props.children}</div>;
+    return <div className="d-flex flex-sm-wrap justify-content-center">{props.children}</div>;
 }
 
 function Portfolio() {
     return (
-        <section className="container-fluid">
-            <div className="project">
+        <section className="container-fluid col-lg-12 mb-5">
+            <div className="containe-fluid">
                 <h2 className="card-title">Portfolio</h2>
                 <hr style={{
                     color: '#000000',
@@ -20,11 +20,13 @@ function Portfolio() {
                 }} />
             </div>
 
-            <Wrapper id="card-body">
+            <Wrapper id="" className="">
                 {portfolio.map((project) => (
                     <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics} />
                 ))}
             </Wrapper>
+
+
         </section>
     )
 }
