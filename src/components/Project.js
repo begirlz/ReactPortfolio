@@ -1,6 +1,4 @@
 import React from 'react';
-import '../css/bootstrap.css';
-
 
 // Individual Cards 
 function ProjectCards(props) {

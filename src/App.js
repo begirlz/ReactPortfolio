@@ -6,6 +6,8 @@ import Portfolio from './components/Portfolio';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -20,6 +22,8 @@ function App() {
           <Route exact path="/" element={<About />} /> 
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Portfolio" element={<Portfolio />} />
+          <Route exact path="/Contact" element={<Contact />} />
+          <Route exact path="/Resume" element={<Resume />} />
         </Routes>
         <Footer />
       </div>

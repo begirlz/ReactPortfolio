@@ -16,7 +16,7 @@ function Footer() {
                 </div>
             </div>
             <div className="d-flex me-sm-2">
-                <div className="mx-auto">
+                <div className="mx-auto ">
                     <a href="https://facebook.com" >
                     <img src="https://img.icons8.com/ios/50/null/facebook-new.png" alt="FaceBook"/>
                     </a>
