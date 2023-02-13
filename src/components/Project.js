@@ -9,8 +9,8 @@ function ProjectCards(props) {
         <div className="card mx-2 col-lg-3">
             <h3 className="card-header"><strong>{props.name}</strong>
             </h3>
-            <div className="card-body">
-                <div className='d-flex justify-content-center'>
+            <div className="card-body d-flex flex-column col">
+                <div className='justify-content-center'>
                     <img className='card-img' style={{ width: '100%', height: '250px' }}
                         alt={props.name} src={props.image} />
 

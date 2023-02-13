@@ -24,27 +24,27 @@
         "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
     },
     {
-        "id": 2,
-        "name": "Tech Blog",
-        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
-        "github": "https://github.com/begirlz/TechBlog",
-        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
-        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+        "id": 4,
+        "name": "Work Day Scheduler",
+        "image": "https://raw.githubusercontent.com/begirlz/WorkDayScheduler/main/assets/img/demo.gif",
+        "github": "https://github.com/begirlz/WorkDayScheduler",
+        "deploy": "https://begirlz.github.io/WorkDayScheduler/",
+        "topics": "JavaScript, HTML, CSS"
     },
     {
-        "id": 2,
-        "name": "Tech Blog",
-        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
-        "github": "https://github.com/begirlz/TechBlog",
-        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
-        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+        "id": 5,
+        "name": "Password Generator",
+        "image": "https://raw.githubusercontent.com/begirlz/PasswordGenerator/main/assets/img/03-javascript-homework-demo.png",
+        "github": "https://github.com/begirlz/PasswordGenerator",
+        "deploy": "https://begirlz.github.io/PasswordGenerator/",
+        "topics": "JavaScript, HTML, CSS"
     },
     {
-        "id": 2,
-        "name": "Tech Blog",
-        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
-        "github": "https://github.com/begirlz/TechBlog",
-        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
-        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+        "id": 6,
+        "name": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/begirlz/WeatherDashboard/main/assets/img/demo.gif",
+        "github": "https://github.com/begirlz/WeatherDashboard",
+        "deploy": "https://begirlz.github.io/WeatherDashboard/",
+        "topics": "JavaScript, HTML, CSS"
     }
 ]
