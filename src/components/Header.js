@@ -5,23 +5,31 @@ import '../App.css';
 
 function Header() {
 
+    const [isCollapse, setisCollapse] = React.useState(false)
+
     return (
 
         <header>
             <nav className="navbar  navbar-expand-lg navbar-dark mb-2">
                 <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    <button className={`navbar-toggler ${isCollapse ? '' : ''}`}
+                        type="button"
+                        onClick={() => {
+                            setisCollapse(!isCollapse)
+                        }}
+                        data-bs-target="#navbarColor02"
                         aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="navbar-collapse collapse" id="navbarColor02">
-                        <div className="navbar-nav me-auto">
-                            <li className="nav-item">
-                                <h1 className="text-dark">
-                                    <strong>Jane Doe</strong>
-                                </h1>
-                            </li>
-                        </div>
+                    <div className="navbar-nav me-auto">
+                        <li className="nav-item">
+                            <h1 className="text-dark">
+                                <strong>Jane Doe</strong>
+                            </h1>
+                        </li>
+                    </div>
+                    <div className={`navbar-collapse ${isCollapse ? '' : 'collapse'}`}
+                        id="navbarColor02">
                         <div className="d-flex me-sm-2">
                             <div className="btn my-2 my-sm-0">
                                 <Link
@@ -33,9 +41,6 @@ function Header() {
                                 >
                                     <strong>About ME</strong>
                                 </Link>
-                                {/* <a href="/About" >
-                                    <strong>About Me</strong>
-                                </a> */}
                             </div>
                         </div>
                         <div className="d-flex me-sm-2">
@@ -49,9 +54,6 @@ function Header() {
                                 >
                                     <strong>Portfolio</strong>
                                 </Link>
-                                {/* <a href="/" >
-                                    <strong>Portfolio</strong>
-                                </a> */}
                             </div>
                         </div>
                         <div className="d-flex me-sm-2">
@@ -65,9 +67,6 @@ function Header() {
                                 >
                                     <strong>Contact</strong>
                                 </Link>
-                                {/* <a href="/" >
-                                    <strong>Contact</strong>
-                                </a> */}
                             </div>
                         </div>
                         <div className="d-flex me-sm-2">
@@ -81,9 +80,6 @@ function Header() {
                                 >
                                     <strong>Resume</strong>
                                 </Link>
-                                {/* <a href="/" >
-                                    <strong>Resume</strong>
-                                </a> */}
                             </div>
                         </div>
                     </div>
