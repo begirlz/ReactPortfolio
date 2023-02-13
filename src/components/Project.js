@@ -18,7 +18,7 @@ function ProjectCards(props) {
                 <div className='row'>
                     <p>({props.topics})</p>
                 </div>
-                <div className="card-footer d-flex justify-content-center">
+                <div className="card-footer d-flex justify-content-center mt-sm-auto">
                     <a href={props.github}>
                         <img className="project-icon" src="https://img.icons8.com/ios/50/null/github--v1.png" alt="GitHub Repo" /></a>
                     <a href={props.deploy}>
