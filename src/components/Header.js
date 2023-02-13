@@ -38,9 +38,8 @@ function Header() {
                             <Link
                                 to="About"
                                 className=""
-                                activeClass="active"
-                                spy={true}
-                                smooth={true}
+                                spy="true"
+                                smooth="true"
                             >
                                 <strong>About ME</strong>
                             </Link>
@@ -51,9 +50,8 @@ function Header() {
                             <Link
                                 to="Portfolio"
                                 className=""
-                                activeClass="active"
-                                spy={true}
-                                smooth={true}
+                                spy="true"
+                                smooth="true"
                             >
                                 <strong>Portfolio</strong>
                             </Link>
@@ -64,9 +62,8 @@ function Header() {
                             <Link
                                 to="Contact"
                                 className=""
-                                activeClass="active"
-                                spy={true}
-                                smooth={true}
+                                spy="true"
+                                smooth="true"
                             >
                                 <strong>Contact</strong>
                             </Link>
@@ -77,9 +74,8 @@ function Header() {
                             <Link
                                 to="Resume"
                                 className=""
-                                activeClass="active"
-                                spy={true}
-                                smooth={true}
+                                spy="true"
+                                smooth="true"
                             >
                                 <strong>Resume</strong>
                             </Link>

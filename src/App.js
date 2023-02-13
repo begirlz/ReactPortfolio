@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           {/* React 6 use element instead of component */}
-          <Route exact path="/" element={<Portfolio />} /> 
+          <Route exact path="/" element={<About />} /> 
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Portfolio" element={<Portfolio />} />
         </Routes>
