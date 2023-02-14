@@ -5,7 +5,7 @@ function aboutMe() {
         <div className="container-fluid col-lg-8 flex-column d-flex justify-content-center">
             <div className="d-flex justify-content-center">
                 <img className='rounded-circle' style={{ width: '220px', height: '200px' }}
-                    alt="avatar" src={'%PUBLIC_URL%/img/avatar.gif'} />
+                    alt="avatar" src={'ReactPortfolio/img/avatar.gif'} />
             </div>
             <div className="d-flex justify-content-center flex-column">
                 <h1 className="d-flex justify-content-center"><strong>ABout ME</strong></h1>
