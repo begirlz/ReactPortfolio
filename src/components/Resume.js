@@ -16,7 +16,7 @@ function Resume() {
                     height: 10,
                 }} />
                 <div className="d-flex justify-content-center">
-                    <img className="container-fluid" src={'/img/skills.png'} alt="skills" />
+                    <img className="container-fluid" src={'ReactPortfolio/img/skills.png'} alt="skills" />
                 </div>
                 <div className="d-flex justify-content-center">
 

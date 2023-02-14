@@ -13,12 +13,11 @@ function Header() {
             <nav className="navbar  navbar-expand-lg navbar-dark mb-2">
 
                 <div className="navbar">
-                    <div className="ms-3"> 
+                    <div className="ms-3">
                         <h1 className="text-dark">
                             Jane Doe
-                        </h1>
+                        </h1>         
                     </div>
-
                 </div>
 
                 <button className={`navbar-toggler ${isCollapse ? '' : ''}`}
