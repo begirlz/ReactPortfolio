@@ -1,30 +1,27 @@
 import React from "react";
 import portfolio from '../Portfolio.json'
 import ProjectCards from '../components/Project'
-//import '../css/bootstrap.css';
 
-function Wrapper(props) {
+function PortfolioWrapper(props) {
     return <div className="d-flex flex-sm-wrap justify-content-center">{props.children}</div>;
 }
 
 function Portfolio() {
     return (
         <section className="container-fluid col-lg-12 mb-5">
-            <div className="containe-fluid">
-                <h2 className="card-title">Portfolio</h2>
+            <div className="containe-fluid ">
+                <h2 className="card-title"><strong>Portfolio</strong></h2>
                 <hr style={{
-                    color: '#000000',
                     backgroundColor: '#0390fc',
                     height: 10,
-                    borderColor: '#000000'
                 }} />
             </div>
 
-            <Wrapper id="" className="">
+            <PortfolioWrapper id="" className="">
                 {portfolio.map((project) => (
                     <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics} />
                 ))}
-            </Wrapper>
+            </PortfolioWrapper>
 
 
         </section>

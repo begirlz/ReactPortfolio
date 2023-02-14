@@ -15,7 +15,7 @@ function Header() {
                 <div className="navbar">
                     <div className="ms-3"> 
                         <h1 className="text-dark">
-                            <strong>Jane Doe</strong>
+                            Jane Doe
                         </h1>
                     </div>
 
