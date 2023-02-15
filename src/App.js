@@ -9,7 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
         <Header />
         <Routes>
           {/* React 6 use element instead of component */}
-          <Route exact path="/" element={<About />} /> 
+          {/* <Route exact path="/" element={<About />} />  */}
+          <Route exact path="*" element={<Navigate to="/About" replace />} />
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Portfolio" element={<Portfolio />} />
           <Route exact path="/Contact" element={<Contact />} />
