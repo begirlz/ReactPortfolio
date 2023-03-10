@@ -1,5 +1,13 @@
 [
     {
+        "id": 7,
+        "name": "Road Sage",
+        "image": "https://raw.githubusercontent.com/begirlz/RoadSage/main/client/public/Homepage.png",
+        "github": "https://github.com/begirlz/RoadSage",
+        "deploy": "https://protected-crag-00303.herokuapp.com/",
+        "topics": "Road Sage is a road trip planning application where you can create an account, log-in, use our search map feature to input your destination and it will map the route and save all your trip information to your account. This is a React app built using MongoDG, Node.js, Express.js, GraphQL, Apollo and JWT."
+    },
+    {
         "id": 1,
         "name": "Tech Blog",
         "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
