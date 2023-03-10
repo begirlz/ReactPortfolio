@@ -1,19 +1,11 @@
 [
     {
-        "id": 7,
+        "id": 1,
         "name": "Road Sage",
         "image": "https://raw.githubusercontent.com/begirlz/RoadSage/main/client/public/Homepage.png",
         "github": "https://github.com/begirlz/RoadSage",
         "deploy": "https://protected-crag-00303.herokuapp.com/",
         "topics": "Road Sage is a road trip planning application where you can create an account, log-in, use our search map feature to input your destination and it will map the route and save all your trip information to your account. This is a React app built using MongoDG, Node.js, Express.js, GraphQL, Apollo and JWT."
-    },
-    {
-        "id": 1,
-        "name": "Tech Blog",
-        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
-        "github": "https://github.com/begirlz/TechBlog",
-        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
-        "topics": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This apps follow MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication."
     },
     {
         "id": 2,
@@ -54,5 +46,13 @@
         "github": "https://github.com/begirlz/WeatherDashboard",
         "deploy": "https://begirlz.github.io/WeatherDashboard/",
         "topics": "Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS."
-    }
+    },
+    {
+        "id": 7,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/begirlz/TechBlog/main/img/Screenshot_1.png",
+        "github": "https://github.com/begirlz/TechBlog",
+        "deploy": "https://powerful-hollows-53265.herokuapp.com/",
+        "topics": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This apps follow MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication."
+    },
 ]
