@@ -9,7 +9,7 @@ function PortfolioWrapper(props) {
 function Portfolio() {
     return (
         <section className="container-fluid col-lg-12 mb-5">
-            <div className="containe-fluid ">
+            <div className="containe-fluid  d-flex flex-column">
                 <h2 className="card-title"><strong>Portfolio</strong></h2>
                 <hr style={{
                     backgroundColor: '#0390fc',
